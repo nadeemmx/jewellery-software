@@ -1,0 +1,67 @@
+# Laravel / PHP
+/vendor
+/.env
+/.env.backup
+/.env.production
+/.env.local
+/.env.testing
+/.env.development.local
+/.env.staging.local
+/.env.production.local
+
+# PHP
+*.log
+composer.lock
+composer.phar
+
+# Laravel Specific
+/public/hot
+/public/storage
+/storage/app
+/storage/framework
+/storage/framework/cache
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+/ide_helper.php
+/homestead.json
+/homestead.yaml
+
+# Node / Vite / Frontend
+/node_modules
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/yarn.lock
+/package-lock.json
+
+# IDE / Editor
+/.vscode
+/.idea
+/.cursor
+/.codex
+/.nova
+/.phpactor.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+
+# Swap and lock files
+*.swp
+*.swo
+
+# Database
+*.sqlite
+database/database.sqlite
+
+# Laravel Env
+APP_KEY=
+
+# Vite CSS JS
+/resources/js/config/env.js
